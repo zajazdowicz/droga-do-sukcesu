@@ -9,3 +9,4 @@ symfony server:start
 
 testowy push :P
 testowy push bartka
+i jeszcze jeden Adriana

@@ -1,2 +1,7 @@
 # droga-do-sukcesu
 software house page 
+ok 
+php 8.1
+composer install
+
+symfony server:start

@@ -5,3 +5,5 @@ php 8.1
 composer install
 
 symfony server:start
+
+testowy push :P

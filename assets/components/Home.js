@@ -3,6 +3,14 @@ import {Route, Switch,Redirect, Link, withRouter} from 'react-router-dom';
 
     
 class Home extends Component {
+
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+          humor: 'happy'
+        }
+      }
     
     
     render() {

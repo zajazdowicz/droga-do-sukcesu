@@ -6,7 +6,6 @@
  */
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './css/app.css';
 import Home from './components/Home';
@@ -19,8 +18,9 @@ const root = createRoot(rootElement);
 // 👇️ if you use TypeScript, add non-null (!) assertion operator
 // const root = createRoot(rootElement!);
 
+
 root.render(
   <StrictMode>
-    <Home />
+    <Home name="Adrianie"/>
   </StrictMode>,
 );

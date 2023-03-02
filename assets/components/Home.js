@@ -17,11 +17,10 @@ class Home extends Component {
 
            <div>
                 <h1>Co za szajs, {this.props.name}</h1>
+                <h3>{this.state.humor}</h3>
            </div>
         )
     }
-
-
 
 }
 

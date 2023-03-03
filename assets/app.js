@@ -8,9 +8,12 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './css/app.css';
-import Home from './components/Home';
+import App from './components/Home';
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -20,7 +23,7 @@ const root = createRoot(rootElement);
 
 
 root.render(
-  <StrictMode>
-    <Home name="Adrianie"/>
-  </StrictMode>,
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
 );

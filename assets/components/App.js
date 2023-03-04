@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import Aboout from "./About";
 
 export default function App() {
   return (
@@ -68,6 +69,7 @@ function Layout() {
 function Home() {
   return (
     <div>
+      
       <h2>Home</h2>
     </div>
   );

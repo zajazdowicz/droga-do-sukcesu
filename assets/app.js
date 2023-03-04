@@ -10,6 +10,8 @@ import './css/app.css';
 import App from './components/App';
 import {createRoot} from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 const rootElement = document.getElementById('root');
@@ -21,6 +23,8 @@ const root = createRoot(rootElement);
 
 root.render(
     <BrowserRouter>
-      <App />
+      <Header />
+        <App />
+      <Footer />
     </BrowserRouter>
 );

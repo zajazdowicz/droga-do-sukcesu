@@ -7,7 +7,6 @@
 
 import React from 'react';
 import './css/app.css';
-import './js/custom.js';
 import App from './components/About';
 import {createRoot} from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

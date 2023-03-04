@@ -11,7 +11,6 @@ export default function About() {
 
 
 
-<header style={{ paddingLeft: 0 }}>
   
 
       <div
@@ -30,6 +29,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </header>
+
   );
 }

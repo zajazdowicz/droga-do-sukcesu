@@ -16,7 +16,13 @@ class HomePageController extends AbstractController
             'controller_name' => 'HomePageController',
         ]);
     }
-
+    #[Route('/about', name: 'about')]
+    public function about(): Response
+    {
+        return $this->render('home_page/index.html.twig', [
+            
+        ]);
+    }
 
     #[Route('/api/users', name:'users')]
     public function getUsers(): JsonResponse

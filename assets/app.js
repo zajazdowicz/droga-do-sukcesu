@@ -12,7 +12,7 @@ import {createRoot} from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+import App from './components/App'
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -24,7 +24,7 @@ const root = createRoot(rootElement);
 root.render(
     <BrowserRouter>
       <Header />
-        <About />
+        <App />
       <Footer />
     </BrowserRouter>
 );
